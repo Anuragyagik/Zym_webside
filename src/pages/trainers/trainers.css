@@ -39,6 +39,7 @@
 
 .trainer:hover a {
   background: var(--color-gray-500);
+  border-radius: 50%;
 }
 
 /* MEDIA QUERIES (medium screens) */

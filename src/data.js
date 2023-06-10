@@ -27,6 +27,12 @@ export const links = [
         name: "Contact",
         path: '/contact'
     }
+    ,
+    {
+        name: "Exercise",
+        path: '/src/components/Exercse.jsx'
+    }
+
 ]
 
 
@@ -279,8 +285,119 @@ export const trainers = [
         id: 1,
         image: Trainer1,
         name: 'John Doe',
+        job: 'Bench press',
+        socials: ['https://en.wikipedia.org/wiki/Bench_press', 'https://twitter.com/', 'https://facebook.com/', 'https://line.me/th/']
+      
+
+    },
+    {
+        id: 2,
+        image: Trainer2,
+        name: 'Daniel vinyo',
+        job: 'Deadlift',
+        socials: ['https://en.wikipedia.org/wiki/Deadlift', 'https://twitter.com/', 'https://facebook.com/', 'https://line.me/th/']
+    },
+    {
+        id: 3,
+        image: Trainer3,
+        name: 'Edem Quist',
+        job: 'Pull-up',
+        socials: ['https://en.wikipedia.org/wiki/Pull_up', 'https://twitter.com/', 'https://facebook.com/', 'https://line.me/th/']
+    },
+    {
+        id: 4,
+        image: Trainer4,
+        name: 'Shatta Wale',
+        job: 'Burpee',
+        socials: ['https://en.wikipedia.org/wiki/Burpee', 'https://twitter.com/', 'https://facebook.com/', 'https://line.me/th/']
+    },
+    {
+        id: 5,
+        image: Trainer5,
+        name: 'Diana Ayi',
+        job: 'Lunge',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://line.me/th/']
+    },
+    {
+        id: 6,
+        image: Trainer6,
+        name: 'Wayne Carter',
+        job: 'Plank',
+        socials: ['https://en.wikipedia.org/wiki/Lunge', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+    }
+    ,
+    {
+        id: 6,
+        image: Trainer6,
+        name: 'Wayne Carter',
+        job: 'Bicep curl',
+        socials: ['https://en.wikipedia.org/wiki/Bicep_curl', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+    }
+    ,
+    {
+        id: 6,
+        image: Trainer6,
+        name: 'Wayne Carter',
+        job: 'Front squat',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+    }
+    ,
+    {
+        id: 6,
+        image: Trainer6,
+        name: 'Wayne Carter',
+        job: '.',
+        socials: ['https://www.muscleandstrength.com/exercises/front-squat.html', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+    }
+    ,
+    {
+        id: 6,
+        image: Trainer6,
+        name: 'Wayne Carter',
+        job: 'Lateral raise',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+    }
+    ,
+    {
+        id: 6,
+        image: Trainer6,
+        name: 'Wayne Carter',
+        job: 'Jump squat',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+    }
+    ,
+    {
+        id: 6,
+        image: Trainer6,
+        name: 'Wayne Carter',
+        job: 'Bent-over row',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+    }
+    ,
+    {
+        id: 6,
+        image: Trainer6,
+        name: 'Wayne Carter',
+        job: 'Leg curl',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+    }
+   
+   
+]
+
+
+
+
+
+export const Exercise = [
+    {
+        id: 1,
+        image: Trainer1,
+        name: 'John Doe',
         job: 'Aerobic Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://line.me/th/']
+    
+
     },
     {
         id: 2,
@@ -314,7 +431,8 @@ export const trainers = [
         id: 6,
         image: Trainer6,
         name: 'Wayne Carter',
-        job: 'Physical Intelligence Trainer',
+        job: '.',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     }
 ]
+

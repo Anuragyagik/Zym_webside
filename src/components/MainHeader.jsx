@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import Image from "../images/main_header.png"
-
+import "./Footer.css";
 const MainHeader = () => {
   return (
     <header className="maintoheader">
@@ -17,7 +17,7 @@ const MainHeader = () => {
         <div className="maintoheader-right">
           <div className="maintoheader-circle"></div>
           <div className="maintoheader-image">
-            <img src={Image} alt="Header Main Image" />
+            <img src={Image} alt="Header Main Image" /> 
           </div>
         </div>
       </div>
@@ -26,3 +26,5 @@ const MainHeader = () => {
 }
 
 export default MainHeader
+
+// {Images} main photo

@@ -9,7 +9,10 @@
 }
 
 .gallerytocontainer article:hover {
-  border-color: var(--color-gray-500);
+  /* border-color: var(--color-gray-500); */
+  height: 500px;
+  width: 400px;
+
 }
 
 /* MEDIA QUERIES (medium screens) */

@@ -1,0 +1,10 @@
+.logo{
+    display: none;
+}
+img{
+  background-position: center;
+  background-size: cover;
+  backface-visibility: visible;
+  background-attachment: fixed;
+  background-clip: border-box;
+}

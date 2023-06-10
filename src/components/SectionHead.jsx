@@ -9,4 +9,7 @@ const SectionHead = ({ icon, title, className }) => {
   )
 }
 
+
 export default SectionHead
+
+//Outside of Testimonails

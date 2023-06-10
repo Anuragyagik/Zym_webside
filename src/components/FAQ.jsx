@@ -17,7 +17,9 @@ const FAQ = ({question, answer}) => {
       </div>
       {isAnswerShowing && <p>{answer}</p>}
     </article>
+       
   )
 }
 
 export default FAQ
+//Content inside FAQS

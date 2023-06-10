@@ -5,7 +5,7 @@ import FAQ from "./FAQ"
 
 const FAQs = () => {
   return (
-      <section className="faqs">
+    <section className="faqs">
         <div className="container faqstocontainer">
           <SectionHead icon={<FaQuestion />} title="FAQs" />
           <div className="faqstowrapper">
@@ -14,6 +14,7 @@ const FAQs = () => {
                 return <FAQ key={id} question={question} answer={answer} />
               })
             }
+          
           </div>
         </div>
       </section>
@@ -21,3 +22,4 @@ const FAQs = () => {
 }
 
 export default FAQs
+//Outside  area of FAQs

@@ -35,6 +35,7 @@ const Testimonails = () => {
           </div>
           <p className="testimonailstoquote">{`"${quote}"`}</p>
           <h5>{name}</h5>
+    
           <small className="testimonailstotitle">{job}</small>
         </Card>
         <div className="testimonailstobttn-container">
@@ -47,3 +48,4 @@ const Testimonails = () => {
 }
 
 export default Testimonails
+//inside  Testimonails page

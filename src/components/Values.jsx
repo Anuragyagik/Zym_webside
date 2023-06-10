@@ -37,3 +37,5 @@ const Values = () => {
 }
 
 export default Values
+
+//Value page

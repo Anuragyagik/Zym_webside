@@ -1,7 +1,7 @@
 import Card from "../UI/Card"
 
 const Trainer = ({image, name, job, socials}) => {
-  return (
+  return (<>
     <Card className="trainer">
       <div className="trainertoimg">
         <img src={image} alt={name} />
@@ -16,7 +16,17 @@ const Trainer = ({image, name, job, socials}) => {
         }
       </div>
     </Card>
+
+
+
+   
+
+
+    </>
   )
 }
+
+
+
 
 export default Trainer

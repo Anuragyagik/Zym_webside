@@ -3,7 +3,7 @@ import { links } from "../data"
 import { GoThreeBars } from "react-icons/go"
 import { MdOutlineClose } from "react-icons/md"
 import "./navbar.css"
-import Logo from "../images/logo.png"
+import Logo from "../images/logo.png" 
 import { useState } from "react"
 
 const Navbar = () => {
@@ -12,10 +12,12 @@ const Navbar = () => {
     <nav>
       <div className="container navtocontainer">
         <Link to="/" className="logo" onClick={() => setIsNavShowing(false)}>
-          <img src={Logo} alt="Nav Logo" />
+          <img src={Logo} alt="Nav Logo" classsName='loges'/>
         </Link>
+          {/* <h3>GYM</h3> */}
         <ul className={`navtolinks ${isNavShowing ? 'showtonav' : 'hidetonav'}`}>
           {
+            
             links.map(({ name, path }, index) => {
               return (
                 <li key={index}>
@@ -38,3 +40,5 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+//Full nav bar only 

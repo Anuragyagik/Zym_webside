@@ -34,7 +34,7 @@ body {
   color: var(--color-gray-200);
   line-height: 1.7;
   overflow-x: hidden;
-  background: var(--color-gray-600) url('./images/bg_texture.png');
+  /* background: var(--color-gray-600) url('./images/bg_texture.png'); */
 }
 
 .container {
@@ -72,7 +72,7 @@ img {
 
 .bttn {
   color: var(--color-gray-100);
-  width: fit-content;
+  /* width: fit-content; */
   margin: 0 auto;
   padding: 0.9rem 2rem;
   background: var(--color-primary);
@@ -83,6 +83,7 @@ img {
 .bttn:hover {
   background: var(--color-secondary);
   color: var(--color-gray-100);
+  /* border-radius: 50%; */
 }
 
 .bttn.lg {
